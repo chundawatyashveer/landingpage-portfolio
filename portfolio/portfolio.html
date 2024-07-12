@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+      body{
+        background-color: rgb(0, 0, 27);
+        color: rgb(142, 80, 228);
+        font-family: poppins;
+        
+        }
+         nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 25px;
+        margin: -116px;
+        margin-top: 28px;
+        margin-bottom: 100px;
+        height: 50px;
+        
+        }
+        ul{
+        display: flex;
+        align-items: center;
+        } 
+        li{
+        margin: 0 20px ;
+        list-style: none;
+        color: aliceblue;
+        }
+        
+       .intro{
+           color: aliceblue;
+           font-family: poppins;
+           font-size: 25px;
+           margin: 100px;
+           font-size: 30px;
+       }
+       .left{
+        font-size: 30px;
+       }
+        .intro-1{
+            font-size: 45px;
+            color: rgb(142, 80, 228);
+        }
+        .intro-2{
+            font-size: 35px;
+            color: rgb(142, 80, 228);
+        }
+        
+       div ul li a{
+           color: aliceblue;
+           text-decoration: none;
+        }
+        .right a:hover{
+            color: rgb(142, 80, 228);
+        }
+        .intro-3{
+            font-size: 18px;
+            padding-top: 40px;
+        }
+        .home-sci a{
+            margin: 10px;
+        }
+        .home-sci{
+            align-items: left;
+            margin-top: 73px;
+            
+        }
+       
+        .about{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .about-img{
+           width: 30%;
+        }
+        .about-text{
+           width: 30%;
+           color: aliceblue;
+        
+        }
+        .about-text h2{
+           font-size: 50px;
+           color: rgb(142, 80, 228) ;
+           margin-bottom: 20px;
+        }
+        .about-text-2{
+            margin-bottom: 45px;
+        }
+        .about-btn-box{
+            background: rgb(142, 80, 228);
+            border-radius: 15px;
+            padding:8px;
+            height: 20px;
+            font-family: poppins;
+            text-decoration: none;
+            box-shadow: inset;
+            color :rgb(0, 0, 27);
+            box-shadow: 0 0 15px rgb(142, 80, 228) ;
+        }
+        .about-btn-box:hover{
+            color: aliceblue;
+        }
+        
+        .service-text{
+            /* margin-left: 30%;
+            margin-right: 20%; */
+            margin-top: 60px;
+            margin-bottom: 60px;
+            
+            font-size: 40px;
+            text-align: center;
+        }
+        .service-container{ 
+            Display: flex;
+            
+            justify-content: space-around;
+            
+            align-items: center;
+            margin-right: 2%;
+            margin-left: 8%;
+            
+        }
+        .service-container div{
+            margin-right:0%;
+            margin-left: 0%;
+            height: 40em; 
+            width: 28%;
+            box-shadow: 0 0 15px rgb(142, 80, 228) ;
+            border-radius: 50px;
+           padding: 1px;
+        }
+         /* .service-web{
+            /* margin-top: 95px;
+            margin-left: 40px;
+            margin-right: 65px;
+            border-radius: 5%;
+            box-shadow: 0 0 40px rgb(142, 80, 228) ;
+        } */
+            
+        .service-web-text-1{
+            margin-top: 30px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+           
+            font-size: 35px;
+        }
+        .service-web-text-2{
+            font-size: 15px;
+            
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            color:aliceblue;
+        } 
+        .service-front-text-1{
+            margin-top: 30px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+           
+            font-size: 35px;
+        }
+        .service-front-text-2{
+            font-size: 13px;
+            
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            color:aliceblue;
+        } 
+        .service-Maintenance-text-1{
+            margin-top: 30px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+           
+            font-size: 35px;
+        }
+        .service-Maintenance-text-2{
+            font-size: 15px;
+            
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            color:aliceblue;
+        } 
+        
+        .service-btn-box{
+            background: rgb(142, 80, 228);
+            border-radius: 15px;
+            padding:8px;
+            height: 20px;
+            font-family: poppins;
+            text-decoration: none;
+            box-shadow:0 0 15px rgb(142, 80, 228)  ;
+            color :rgb(0, 0, 27);
+            box-shadow: 0 0 15px rgb(142, 80, 228) ;
+           margin-left: 20px;
+           margin-top: 20px;
+        }
+        
+
+        .service-btn-box:hover{
+            color: aliceblue;
+        }
+        .skill-text{
+            margin-top: 60px;
+            margin-bottom: 60px;
+            
+            font-size: 50px;
+            text-align: center;
+        }
+        .skill-container{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            margin-left: 13%;
+            margin-right: 10%;
+        }
+        .skill-box{
+            color: aliceblue;
+            
+            font-size: 20px;
+            
+            width: 50%;
+            height: 30em;
+            align-items: center;
+            
+        }
+        .technical h3{
+            text-align: center;
+            font-size: 30px;
+            margin: 30px;
+        }
+        .professionl h3{
+            text-align: center;
+            font-size: 30px;
+            margin: 30px;
+        }
+        .html{
+            
+            margin: 15px 15px 30px 15px;
+        }
+        .html-progress-bar{
+            background: aliceblue;
+            height: 4px;
+            border-radius: 4px;
+            width: 100%
+            
+       }
+       .html-progress-par{
+        background: rgb(142, 80, 228);
+        height: 4px;
+        border-radius: 4px;
+        width: 95%;
+       }
+        .CSS{
+            margin: 55px 15px 55px 15px;
+            
+        }
+        .CSS-progress-bar{
+            background: aliceblue;
+            height: 4px;
+            border-radius: 4px;
+            width: 100%
+       }
+       .CSS-progress-par{
+        background: rgb(142, 80, 228);
+        height: 4px;
+        border-radius: 4px;
+        width: 90%;
+       }
+        .JavaScript{
+            
+            margin: 55px 15px 55px 15px;
+        }
+        .JavaScript-progress-bar{
+            background: aliceblue;
+            height: 4px;
+            border-radius: 4px;
+            width: 100%
+        }
+       .JavaScript-progress-par{
+        background: rgb(142, 80, 228);
+        height: 4px;
+        border-radius: 4px;
+        width: 80%;
+       }
+       .CPP{
+            margin: 55px 15px 55px 15px;
+            
+        }
+        .CPP-progress-bar{
+            background: aliceblue;
+            height: 4px;
+            border-radius: 4px;
+            width: 100%
+       }
+       .CPP-progress-par{
+        background: rgb(142, 80, 228);
+        height: 4px;
+        border-radius: 4px;
+        width: 60%; 
+       }
+       .Java{
+            
+            margin: 55px 15px 55px 15px;
+        }
+        .Java-progress-bar{
+            background: aliceblue;
+            height: 4px;
+            border-radius: 4px;
+            width: 100%
+        }
+       .Java-progress-par{
+        background: rgb(142, 80, 228);
+        height: 4px;
+        border-radius: 4px;
+        width: 60%;
+       }
+       .contact{
+        
+       }
+       .contact h1{
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 40px;
+       }
+       .contact-text{
+        text-align: center;
+        margin: 5% 10% ;
+        color: aliceblue;
+        font-size: 20px;
+       }
+       .contact-no{
+        text-align: center;
+    }
+    .contact-no i{
+           font-size: 15px;
+            padding: 40px;
+       }
+       .contact-no span{
+        color: aliceblue;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+
+            <div class="left"> <strong>portfolio</strong></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Hello">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">service</a></li>
+                    <li><a href="#Skill">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection" id="Home">
+
+            <div class="intro">
+                <strong>
+                    <div> Hello,it's Me</div>
+                    <div class="intro-1"> Yashveer singh chundawat </div>
+                    <div>And I'm passionate about</div>
+                    <div class="intro-2">
+                        <span id="element"></span>
+                        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                        <script>
+                            var typed = new Typed('#element', {
+                                strings: ['Web Developer', 'Web Design','Front end','App Developer',''],
+                                typeSpeed: 70,
+                            });
+                            </script></div>
+                </strong>
+                <div class="intro-3">
+                Computer science engineering student with a passion for web development and programming. <br> responsible and motivated studend. ready to apply education in to work space. <br>offer excellent and technical abilitys with software and application abbility to handling challanging work and excellent in time management skill.
+                </div>
+                <div class="home-sci">
+                    
+                    <a class="home-sci-1" href=" https://x.com/Yashveersingh69?t=2ZwziilE3_vxaYSCWu_Weg&s=08" id="twitter">
+                        <img src="x.png" alt="x logo" width="50px" height="50px"> 
+                    </a>
+                    <a class="home-sci-2" href= https://www.instagram.com/_yash.here" id="instagram">
+                        <img src="insta.png" alt="instagram logo" width="50px" height="50px">
+                    </a>
+                    <a class="home-sci-3" href="https://www.linkedin.com/in/yashveer-chundawat-37ba032b3/ " id="linkedin">
+                        <img src="linkin.jpeg" alt="linkedin logo" width="50px" height="50px">
+                    </a>
+                    
+                </div>
+            </div>
+
+        </section>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="" alt="">
+            </div>
+            <div class="about-text">
+              <h2>About Me</h2> 
+              <div class="about-text-2">
+                  <p>I am computer science engineering student with a passion for web development and programming. <br>
+                   My proficiency is in Java, HTML, CSS, and JavaScript, and has experience in creating dynamic and responsive websites. <br>
+                   Currently pursuing my B. tech. degree from a reputed institution, where I have maintained a high academic performance.</p>  
+              </div> 
+              <div>
+                <a href="#about" class="about-btn-box">My Resume</a>
+              </div>
+            </div>
+        </section>
+        <section class="service" id="service">
+            <div >
+                <h1 class="service-text"> <strong>My services</strong> </h1>
+                <div class="service-container">
+                    <div class="service-web">
+                        
+                       <h3 class="service-web-text-1"> Web <br> Development</h3> 
+                       <p class="service-web-text-2">Web development is the process of creating, designing, and maintaining websites and web applications. Web developers use various technologies and languages to build dynamic and interactive web pages that can provide information, services, or entertainment to users. Some of the common web development tools are HTML, CSS, JavaScript, PHP, Python, Ruby, and WordPress.
+                        </p>
+                        <a href="#Home" class="service-btn-box">learm more...</a>
+                    </div>
+                    <div>
+                        
+                       <h3 class=" service-front-text-1">Front <br> End </h3>
+                        <p class=" service-front-text-2">Front-end development is the part of web development that deals with the user interface of a website or web application. It involves creating the visual elements that users see and interact with, such as buttons, menus, forms, images, animations, and more. Front-end developers use web technologies such as HTML, CSS, and JavaScript to code the structure, style, and behavior of these elements. They also use frameworks and libraries such as Bootstrap, React, Angular, and jQuery to simplify and enhance their work.</p>
+                        <a href="#Home" class="service-btn-box">learm more...</a>
+                    </div> 
+                    <div>
+                    
+                       <h3 class=" service-Maintenance-text-1">Web <br> Maintenance</h3> 
+                        <p class=" service-Maintenance-text-2">Web maintenance is the process of keeping a website up-to-date and running smoothly as well as performing optimally1. Web maintenance includes tasks like ensuring all the links on your site are working, regularly updating content, and fixing any broken links. It also involves more general housekeeping tasks like backing up your site regularly and monitoring your sites performance</p>
+                        <a href="#Home" class="service-btn-box">learm more...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skill" id="Skill">
+            <h1 class="skill-text"> <strong>My Skills</strong> </h1>
+            <div class="skill-container">
+                <div class="skill-box">
+
+                    <div class="technical">
+                        <h3>technical skill</h3> 
+                        <div class="technical-bar">
+                            <div class="bar">
+                                <div class="html">
+                                    <img src="html.png" alt="">
+                                    <span>HTML</span>
+                                    <div class="html-progress-bar">
+                                        <div class="html-progress-par">
+                                            95%
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="CSS">
+                                    <img src="html.png" alt="">
+                                    <span>CSS</span>
+                                    <div class="CSS-progress-bar">
+                                        <div class="CSS-progress-par">
+                                            90%
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="JavaScript">
+                                    <img src="html.png" alt="">
+                                    <span>JavaScript</span>
+                                    <div class="JavaScript-progress-bar">
+                                        <div class="JavaScript-progress-par">
+                                            80%
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="CPP">
+                                    <img src="html.png" alt="">
+                                    <span>CPP</span>
+                                    <div class="CPP-progress-bar">
+                                        <div class="CPP-progress-par">
+                                            60%
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="Java">
+                                    <img src="html.png" alt="">
+                                    <span>Java</span>
+                                    <div class="Java-progress-bar">
+                                        <div class="Java-progress-par">
+                                            60%
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div class="skill-box">
+
+                    <div class="professionl">
+                        <h3>professionl skill</h3>
+    
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1> <strong>Contact Me</strong></h1>
+            <div class="contact-text">
+                <h3>let's work together</h3>
+                <p>
+                    Hi, I’m yashveer, a freelance web developer with over three years of experience in creating responsive, user-friendly, and SEO-optimized websites. I have developed websites using HTML, CSS, JavaScript. I have a keen eye for design and aesthetics, and I always strive to deliver high-quality work that meets the client’s expectations and needs. I’m always eager to learn new skills and technologies that can enhance my web development capabilities.If you are looking for a reliable, creative, and professional web developer for your next project, please feel free to contact me. I would love to hear from you and discuss how we can work together to create your dream website. 😊
+                </p>
+            </div>
+            <div class="contact-no">
+                <i class="fa-solid fa-envelope">
+                    <span> chundawatyashveer@gmail.com </span>
+                </i><br>
+                <i class="fa-solid fa-phone">
+                    <span>7976438858</span>
+                </i>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
